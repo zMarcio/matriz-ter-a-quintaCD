@@ -1,4 +1,4 @@
-class Matriz:
+class Matrix:
     def __init__(self,rows,cols,elements):
         if rows * cols != len(elements):
             return print("Dimensão da matriz não corresponde ao número de elementos")
